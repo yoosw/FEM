@@ -1,6 +1,6 @@
 // materials
 2
-// Regional division, x
+/* Regional division, x */
 2
 // Regional distance, d
 10. 17.
