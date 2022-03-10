@@ -10,7 +10,7 @@ using namespace std;
 int main (){
 
 
-    readInput();
+    read_input();
     // read input
     // functions
     // make matrix

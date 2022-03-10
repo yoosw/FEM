@@ -21,7 +21,9 @@ struct Materials{
     double Sig_t, Sig_a, Sig_ii, Sig_ij, Nusig_f;
     int BCon[2];
 } typedef Materials;
-double readInput();
+//Materials NewMaterials();
+
+void read_input();
 
 
 using namespace std;
