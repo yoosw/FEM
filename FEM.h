@@ -19,7 +19,7 @@ struct Materials{
 
     int num, group;
     double Sig_t, Sig_a, Sig_ii, Sig_ij, Nusig_f;
-    int BCon[2];
+    int BCon;
 } typedef Materials;
 //Materials NewMaterials();
 

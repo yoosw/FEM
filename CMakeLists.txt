@@ -3,5 +3,6 @@ project(FEM)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FEM FEM.cpp)
+
+add_executable(FEM FEM.cpp ReadInput.cpp input-1d.txt)
 

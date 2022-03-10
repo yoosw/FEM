@@ -7,6 +7,7 @@
 #include <vector>
 #include <cmath>
 #include "FEM.h"
+using namespace std;
 /*
 Materials NewMaterials(){
 
@@ -16,17 +17,34 @@ Materials NewMaterials(){
 
 void read_input(){
 
-    char charr[256];
-    int i, j, temp1;
+    int count_line = 0;
+
     ifstream fin;
+    string buffer;
+    // print input
     cout << "--------------------  input  --------------------" << endl;
     cout << endl;
-    fin.open("input - 1d.txt");
-    fin.getline(charr, 256);
-    fin >> temp1;
-    cout <<temp1;
+
+    fin.open("input-1d.txt");
+
+    while (fin.peek() != EOF) {
+        getline(fin, buffer);
+        cout << buffer <<endl;
+        count_line++; // total lines
+    }
     fin.close();
-    cout << "--------------------  -----  --------------------" << endl;
-    cout << endl;
+    // data save
+    fin.open("input-1d.txt");
+    double a[count_line];
+    for(int i=0; i<count_line; i++){
+        fin>>a[i];
+    }
+    fin.close();
+    for(int i=0; i < a[1];i++){
+        Materials Mat[i] ;
+        Mat[i].Sig_t= a[];
+    }
+
+
 
 }

@@ -26,7 +26,7 @@ void read_input()
 
     cout << "--------------------  input  --------------------" << endl;
     cout << endl;
-    fin.open("input - 1d.txt");
+    fin.open("input-1d.txt");
 
     fin.getline(charr, 256);
     fin >> Materials;
