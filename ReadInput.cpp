@@ -42,7 +42,7 @@ void read_input(){
     fin.close();
     for(int i=0; i < a[1];i++){
 
-        Materials Mat[i] ;
+        Materials Mat[i];
         // Mat[i].Sig_t= a[];
     }
     for(int i =0;i <count_line;i++){

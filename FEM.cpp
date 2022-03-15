@@ -12,6 +12,7 @@ int main (){
 
 
     read_input();
+    loadCrossSection();
     // read input
     // functions
     // make matrix

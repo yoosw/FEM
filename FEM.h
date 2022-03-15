@@ -24,6 +24,7 @@ struct Materials{
 //Materials NewMaterials();
 
 void read_input();
+void loadCrossSection();
 
 
 using namespace std;
