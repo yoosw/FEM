@@ -14,7 +14,7 @@ Materials NewMaterials(){
 
 };
 */
-
+// 고유빈바보
 void read_input(){
 
     int count_line = 0;
